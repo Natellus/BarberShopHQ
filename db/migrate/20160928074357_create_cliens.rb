@@ -1,4 +1,4 @@
-class CreateCliens < ActiveRecord::Migration
+class CreateClients < ActiveRecord::Migration
   def change
     create_table :client do |t|
       t.text :name
@@ -6,7 +6,7 @@ class CreateCliens < ActiveRecord::Migration
       t.text :datestamp
       t.text :barber
       t.text :color
-      t.timesstamps
+      t.timestamps
     end
   end
 end
